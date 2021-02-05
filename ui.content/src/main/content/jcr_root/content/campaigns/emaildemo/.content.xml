@@ -11,5 +11,5 @@
         jcr:title="Email Demo"
         sling:resourceType="cq/personalization/components/campaignpage"
         priority="1"/>
-    <email-demo/>
+    <demo-email/>
 </jcr:root>
