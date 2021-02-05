@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2021-02-04T20:20:15.654-05:00"
+        cq:lastModifiedBy="admin"
+        cq:templateType="/conf/emaildemo/settings/wcm/template-types/empty-email"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Demo Email Template"
+        status="enabled"/>
+</jcr:root>

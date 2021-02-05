@@ -1,0 +1,92 @@
+
+<!--/* Outputs the WCM initialization code. If WCM mode is disabled nothing is rendered */-->
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+<!--/* include client libs */-->
+<meta data-sly-test="${!wcmmode.disabled}" data-sly-call="${clientLib.all @ categories='jquery,cq.authoring.page,cq.shared'}" data-sly-unwrap></meta>
+
+<!--/* initialize ContextHub registration */-->
+<meta id="campaignContextHub" data-register="true" data-metadata-method="POST" data-sly-test="${!wcmmode.disabled}" />
+
+<style type="text/css">
+
+    /* styles to account for Outlook/Hotmail peculiarities */
+
+    .ExternalClass {
+        width:100%;
+    }
+
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+        line-height: 100%;
+    }
+
+    table {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+    }
+
+    img {
+        -ms-interpolation-mode: bicubic;
+    }
+
+    /* triggers "view in browser" link in Outlook */
+
+    #outlook a {
+        padding: 0;
+    }
+
+    /* template styles */
+
+    .ac-content-cell img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .ac-content-cell p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* styles for responsive layout */
+
+    @media only screen and (max-width: 480px) {
+
+        #ac-body-cell {
+            padding: 10px !important;
+        }
+
+        #ac-content-table {
+            max-width: 600px !important;
+            width: 100% !important;
+        }
+
+        .ac-content-cell img {
+            width: 100% !important;
+        }
+
+        .ac-column-cell {
+            display: block !important;
+            width: auto !important;
+        }
+
+    }
+
+</style>
+
+<style type="text/css" data-sly-test="${!wcmmode.disabled}">
+
+    .ac-content-cell img.cq-placeholder {
+        height: 2.875rem;
+    }
+
+</style>
+
+<meta data-sly-test="${!wcmmode.disabled}" data-sly-resource="${'contexthub' @ resourceType='granite/contexthub/components/contexthub'}" data-sly-unwrap></meta>

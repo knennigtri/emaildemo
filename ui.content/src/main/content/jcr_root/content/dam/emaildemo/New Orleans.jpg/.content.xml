@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="03d5394a-1e3d-446d-aece-78af29b6a914">
+    <jcr:content
+        cq:name="New Orleans.jpg"
+        cq:parentPath="/content/dam/emaildemo"
+        dam:assetState="processed"
+        dam:relativePath="training/New Orleans.jpg"
+        jcr:lastModified="{Date}2021-02-04T18:35:46.789-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2021-02-04T18:35:46.465-05:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}300"
+            dam:Physicalheightininches="{Decimal}1.8566666841506958"
+            dam:Physicalwidthindpi="{Long}300"
+            dam:Physicalwidthininches="{Decimal}4.800000190734863"
+            dam:Progressive="no"
+            dam:sha1="f5fe66f767aa982811e520c7903eff267cf7e3f8"
+            dam:size="{Long}330085"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2021-02-04T18:35:42.942-05:00"
+            jcr:lastModified="{Date}2021-02-04T18:35:42.942-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}557"
+            tiff:ImageWidth="{Long}1440"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

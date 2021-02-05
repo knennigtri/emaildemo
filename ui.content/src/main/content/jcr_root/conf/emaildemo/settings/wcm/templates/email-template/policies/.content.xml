@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-02-04T20:20:15.654-05:00"
+        cq:lastModifiedBy="admin"
+        cq:policy="emaildemo/components/campaign/campaign-page/policy_1612483114509"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm/core/components/policies/mappings">
+        <root
+            cq:policy="emaildemo/components/container/policy_1612482585598"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/core/components/policies/mapping">
+            <container
+                cq:policy="emaildemo/components/container/policy_213106331986985"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <container
+                    cq:policy="emaildemo/components/container/policy_1073775371165281"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                <container_1472882662
+                    cq:policy="emaildemo/components/container/policy_1073866082902062"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                <container_1065892382
+                    cq:policy="emaildemo/components/container/policy_1073941734462174"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+            </container>
+            <container_1975179353 jcr:primaryType="nt:unstructured">
+                <container
+                    cq:policy="emaildemo/components/container/policy_1073775371165281"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                <container_1472882662
+                    cq:policy="emaildemo/components/container/policy_1073866082902062"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                <container_1065892382
+                    cq:policy="emaildemo/components/container/policy_1073941734462174"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+            </container_1975179353>
+        </root>
+    </jcr:content>
+</jcr:root>

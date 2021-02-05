@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <rep:policy/>
+    <emaildemo jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <container jcr:primaryType="nt:unstructured">
+                <policy_1612482585598
+                    jcr:lastModified="{Date}2021-02-04T19:01:01.597-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Email Structure Policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="[/apps/emaildemo/components/container,/apps/emaildemo/components/download,/apps/emaildemo/components/separator,/apps/emaildemo/components/campaign/heading,/apps/emaildemo/components/campaign/personalization]"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1612482585598>
+                <policy_1073775371165281
+                    jcr:lastModified="{Date}2021-02-04T19:00:28.764-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Email Left Container Policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="[/apps/emaildemo/components/contentfragment,/apps/emaildemo/components/download,/apps/emaildemo/components/separator,group:EmailDemo - Email]"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1073775371165281>
+                <policy_1073866082902062
+                    jcr:lastModified="{Date}2021-02-04T19:01:57.211-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Email Right Content Policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="[/apps/emaildemo/components/campaign/personalization,/apps/emaildemo/components/campaign/title]"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1073866082902062>
+                <policy_1073941734462174
+                    jcr:lastModified="{Date}2021-02-04T19:03:09.416-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Email Header Policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="[/apps/emaildemo/components/campaign/heading,/apps/emaildemo/components/campaign/image,/apps/emaildemo/components/campaign/title]"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1073941734462174>
+            </container>
+            <campaign jcr:primaryType="nt:unstructured">
+                <campaign-page jcr:primaryType="nt:unstructured">
+                    <policy_1612483114509
+                        jcr:lastModified="{Date}2021-02-04T18:59:03.854-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Email Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="wcm.foundation.components.page.responsive">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1612483114509>
+                </campaign-page>
+            </campaign>
+        </components>
+    </emaildemo>
+</jcr:root>

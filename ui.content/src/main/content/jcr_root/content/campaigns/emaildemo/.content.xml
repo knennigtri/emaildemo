@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="/conf/emaildemo/settings/wcm/templates/email(.*)?"
+        cq:lastModified="{Date}2021-02-04T19:08:47.274-05:00"
+        cq:lastModifiedBy="admin"
+        cq:targetEngine="cq_contexthub"
+        cq:template="/libs/cq/personalization/templates/campaign"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Email Demo"
+        sling:resourceType="cq/personalization/components/campaignpage"
+        priority="1"/>
+    <email-demo/>
+</jcr:root>
